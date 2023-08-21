@@ -463,6 +463,15 @@ body {
     background-color: var(--oceancolor);
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-block {
+    margin-left: 120px;
+}
+
 .social-footer .link {
     fill: currentColor;
 }
@@ -516,55 +525,51 @@ body {
     width: 270px;
     font-weight: 400;
     line-height: 1.5;
-    margin-right: -50px;
+    
 }
 .footer-heading {
     color: var(--ashwhite);      
 }
 .footer-heading-2 {
     color: var(--ashwhite);
-  
     
-}
-.footer {
-    display: flex;
-    justify-content: space-between;
-  
-
 }
 .page-footer {
     padding: 60px 0;
     background-color: var(--navyblue);
 }
-.footer .button {
-    color: var(--cloud);
-    background-color: var(--iriscolor);
-    align-items: center;
-    height: 40px;
-    padding: 8px 24px;
-    width: 165px;
-    margin-top: 40px;
-}
 
 .footer-email {
-    margin-top: 40px;
-    margin-left: -95px;
-    width: 254px;
+    margin-top: 20px;
+    width: 264px;
     height: 40px;
     padding-left: 16px;
+    font-size: 12px;
     outline: none;
     background-color: var(--navyblue);
     border: 1px solid var(--whitecolor);
     border-radius: 4px;
     color: var(--whitecolor);
 }
-
-.footer-subs {
-    display: flex;
-    gap: 20px
+.footer .button {
+    color: var(--cloud);
+    background-color: var(--iriscolor);
+    align-items: center;
+    height: 40px;
+    font-weight: 500;
+    padding: 8px 24px;
+    width: 165px;  
+    margin-top: 20px;
+    gap: 16px;
 }
 
 
+.footer-subs {
+    display: block;
+    margin-left: 80px;
+    justify-content: center;
+        
+}
 .footer-sub {
     fill: currentColor;
 }
@@ -585,7 +590,6 @@ body {
     height: 100%;
     background-color: var(--black);
     opacity: 1;
-
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -792,14 +796,13 @@ body {
     text-decoration: underline;
 }
 .checkmark {
-    position: relative;
+    position: absolute;
     width: 20px;
     height: 16px;
     cursor: pointer;
     appearance: none;
 }
 .check-icon {
-    position: absolute;
     width: 16px;
     height: 16px;
     outline: none;
