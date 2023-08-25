@@ -611,7 +611,14 @@ body {
     }   
 
 .partners .item {
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+partners .item {
     height: 90px;
+    flex-basis: calc((100% / 3 - 50px));
     margin-left: 30px;
     margin-top: 30px;
 }
