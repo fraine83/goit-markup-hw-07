@@ -612,8 +612,8 @@ body {
 
 .partners .item {
     height: 80px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 24px;
+    margin-top: 50px;
 }
 
 partners .item {
@@ -795,7 +795,23 @@ partners .item {
 @media screen and (min-width: 768px) {
     .footer {
         display: flex;
-        flex-wrap: wrap;       
+        align-items: center;
+      
+        
+        
+}
+.footer-block {
+    margin-left: 30px;
+}
+.footer-subs {
+    display: inline-flex;
+  
+   
+}
+.footer-email-1 {
+    
+    
+    width: auto;
 }
 }
 
@@ -838,6 +854,7 @@ partners .item {
         }
   .footer-subs {
       display: flex;
+      flex-direction: row;
       margin-left: 80px;
       justify-content: center;
         }
